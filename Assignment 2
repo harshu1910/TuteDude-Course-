@@ -1,0 +1,22 @@
+Task 1
+
+# Taking input from the user
+num = int(input("Enter an integer: "))
+
+# Checking if the number is even or odd
+if num % 2 == 0:
+    result = "even"
+else:
+    result = "odd"
+
+# Displaying the result
+print(f"\nThe number {num} is {result}.")
+
+
+Task 2 
+
+# Calculating the sum of integers from 1 to 50
+sum_of_numbers = sum(range(1, 51))
+
+# Displaying the final sum
+print(f"The sum of integers from 1 to 50 is: {sum_of_numbers}")
