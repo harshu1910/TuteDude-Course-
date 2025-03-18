@@ -1,0 +1,36 @@
+Task 1 
+
+# Defining a function to calculate factorial
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+# Taking input from the user
+num = int(input("Enter a number: "))
+
+# Calculating factorial
+result = factorial(num)
+
+# Displaying the output
+print(f"The factorial of {num} is: {result}")
+
+
+Task 3 
+
+import math
+
+# Taking input from the user
+num = float(input("Enter a number: "))
+
+# Using math module for calculations
+square_root = math.sqrt(num)
+natural_log = math.log(num) if num > 0 else "Undefined (logarithm of non-positive numbers is not allowed)"
+sine_value = math.sin(num)
+
+# Displaying the results
+print(f"\nMathematical Calculations for {num}:")
+print(f"Square Root: {square_root}")
+print(f"Natural Logarithm (ln): {natural_log}")
+print(f"Sine (radians): {sine_value}")
